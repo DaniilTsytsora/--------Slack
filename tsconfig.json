@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "NodeNext",
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "*": ["node_modules/*", "node_modules/@types/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
